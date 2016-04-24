@@ -1,2 +1,2 @@
 # VGAController
-My cack-handed attempt at a VHDL VGA controller.
+A state machine approach to generating VGA signals. Work in progress.
