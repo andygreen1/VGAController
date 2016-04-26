@@ -7,7 +7,7 @@ I'm relatively new to VHDL, but I've not seen any examples of driving VGA signal
 
 I compared this against EEWiki's example (link: https://eewiki.net/pages/viewpage.action?pageId=15925278) by synthesizing in Xilinx ISE WebPack 14.7, the results are below.
 
-(NB: Seeing as I'm missing some data, I can't claim that I've followed the scientific process to any degree of rigour beyond 'ehh, close enough'. I recommend you check for yourself if you care enough.)
+(NB: Seeing as I'm missing some data, I can't claim that I've followed the scientific process to any degree of rigour beyond 'ehh, I probably wrote that down correctly'. I recommend you check for yourself if you care enough.)
 
 | 640x480 @60Hz | Best case time (ns) | Flip-flops | LUTs | Slices |
 | --- | --- | --- | --- | --- |
@@ -32,6 +32,7 @@ I compared this against EEWiki's example (link: https://eewiki.net/pages/viewpag
 | This Version | 3.708 | 32 | 58 | 20 |
 | EEWiki Version | 4.587 | 26 | 45 | 15 |
 
+I'm not sure why resource usage & timings drop slightly with high resolutions.
 
-So on the face of it, this seems to be doing a better job of best case throughput (and scalability) at the cost of extra gates. 
+On the face of it, this seems to be doing a better job of best case throughput (and scalability) at the cost of extra gates. 
 I have no idea if this is a good or bad thing. I had fun anyway.
