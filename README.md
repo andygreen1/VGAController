@@ -27,11 +27,11 @@ I compared this against EEWiki's example (link: https://eewiki.net/pages/viewpag
 | EEWiki Version | 4.518 | 26 | 51 | 14 |
 
 
-| 1920x1440 @60Hz | Best case time (ns) | Flip-flops | LUTs | Slices |
+| 1920x1440 @75Hz | Best case time (ns) | Flip-flops | LUTs | Slices |
 | --- | --- | --- | --- | --- |
 | This Version | 3.708 | 32 | 58 | 20 |
 | EEWiki Version | 4.587 | 26 | 45 | 15 |
 
 
-So on the face of it, this seems to be doing a better job of best case throughput, at the cost of extra gates. 
+So on the face of it, this seems to be doing a better job of best case throughput (and scalability) at the cost of extra gates. 
 I have no idea if this is a good or bad thing. I had fun anyway.
