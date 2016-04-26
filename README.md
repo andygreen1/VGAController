@@ -1,5 +1,5 @@
 # VGAController
-Disclaimer: This has not been verified on an actual FPGA (yet), use at your own risk.
+I've verified this design as working on a Spartan 6 development board, however this does not imply it is functionally correct. Use at your own risk.
 
 A state machine approach to generating VGA signals. Work in progress.
 

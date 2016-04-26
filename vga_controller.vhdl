@@ -17,12 +17,12 @@ entity VGAController is
                 --c_hFrontPorch           : integer := 16-1;
                 --c_hSyncPulse            : integer := 96-1;
                 --c_hBackPorch            : integer := 48-1;
-                --c_hPolarity             : std_logic := '1'; -- 1: positive polarity, 0: negative
+                --c_hPolarity             : std_logic := '0'; -- 1: positive polarity, 0: negative
                 --c_vActiveDisplay        : integer := 480-1;
                 --c_vFrontPorch           : integer := 10-1;
                 --c_vSyncPulse            : integer := 2-1;
                 --c_vBackPorch            : integer := 33-1;
-                --c_vPolarity             : std_logic := '1'
+                --c_vPolarity             : std_logic := '0'
                 
                 -- 1280x800 @ 60Hz
                 --c_hActiveDisplay        : integer := 1280-1;
@@ -67,12 +67,12 @@ entity VGAController is
                 c_hFrontPorch           : integer := 16-1;
                 c_hSyncPulse            : integer := 96-1;
                 c_hBackPorch            : integer := 48-1;
-                c_hPolarity             : std_logic := '1'; -- 1: positive polarity, 0: negative
+                c_hPolarity             : std_logic := '0'; -- 1: positive polarity, 0: negative
                 c_vActiveDisplay        : integer := 480-1;
                 c_vFrontPorch           : integer := 10-1;
                 c_vSyncPulse            : integer := 2-1;
                 c_vBackPorch            : integer := 33-1;
-                c_vPolarity             : std_logic := '1'
+                c_vPolarity             : std_logic := '0'
     );
     port ( 
                 Clk     : in std_logic;
