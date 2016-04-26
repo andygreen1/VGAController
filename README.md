@@ -5,9 +5,8 @@ A state machine approach to generating VGA signals. Work in progress.
 
 I'm relatively new to VHDL, but I've not seen any examples of driving VGA signals via state machines in any of the online material I've found.
 
-I compared this against EEWiki's example (link: https://eewiki.net/pages/viewpage.action?pageId=15925278) by synthesizing in Xilinx ISE WebPack 14.7, the results are below.
-
-(NB: Seeing as I'm missing some data, I can't claim that I've followed the scientific process to any degree of rigour beyond 'ehh, I probably wrote that down correctly'. I recommend you check for yourself if you care enough.)
+I compared this against EEWiki's example (link: https://eewiki.net/pages/viewpage.action?pageId=15925278) by synthesizing for a Spartan 6 LX45 in Xilinx ISE WebPack 14.7. The results are below.
+(Seeing as I'm missing some data, I can't claim that I've followed the scientific process to any degree of rigour beyond 'ehh, I probably wrote that down correctly'. I recommend you check for yourself if you care enough.)
 
 | 640x480 @60Hz | Best case time (ns) | Flip-flops | LUTs | Slices |
 | --- | --- | --- | --- | --- |
